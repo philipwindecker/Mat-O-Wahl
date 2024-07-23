@@ -2,19 +2,19 @@
 /* BODY: Hintergrundfarbe, Schriftart, -groesse und -farbe */
 /* BODY: background color, font, size and color */
 body {
-	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
 /*	font-size:10pt; */
-	color:#000000; 
+	color:#000000;
 
-	background-color: #EFC04F;
-	/* background-image: linear-gradient(#EFC04F, #FFE08F); */ 
-	/* background-attachment: fixed; */
+	/* background-color: #EFC04F; */
+	background-image: linear-gradient(#00b2c4, #3e3e3e);
+	background-attachment: fixed;
 	}
 
 /* LINK-Farbe - AUSSER bei der Bootstrap-Klasse "btn" für Buttons. Dort wird der Bootstrap-Standard benutzt. */
 /* LINK-color - EXCEPT for Bootstrap button-class "btn". Use defaults there. */
 a:not(.btn) { color:#000000; text-decoration:underline;}
-a:not(.btn):link { color:#000000; } 
+a:not(.btn):link { color:#000000; }
 a:not(.btn):visited { color:#404040; }
 a:not(.btn):active { color:#FF0000; }
 a:not(.btn):hover { color:#FF0000; text-decoration:none; }
@@ -22,9 +22,9 @@ a:not(.btn):hover { color:#FF0000; text-decoration:none; }
 
 /* Statistik */
 /* Statistics */
-#keepStats { 
-	margin-top:10px; 
-	font-size:90%; 
+#keepStats {
+	margin-top:10px;
+	font-size:90%;
 	}
 
 /* Willkommensnachricht (erster DIV)
@@ -39,7 +39,7 @@ a:not(.btn):hover { color:#FF0000; text-decoration:none; }
 
 /* BOOTSTRAP */
 .row {
-	padding: 0.2em; 
+	padding: 0.2em;
 }
 
 /* Gestreifte Spalten in den Ergebnis-Listen

@@ -1,12 +1,12 @@
-/* Bootstrap BUTTONS 
+/* Bootstrap BUTTONS
 	https://getbootstrap.com/docs/4.0/components/buttons/
 
-	Anpassung: WACG Farben (Barrierefreiheit) 
+	Anpassung: WACG Farben (Barrierefreiheit)
    Adjustment: WACG colors (accessibility)
    https://webaim.org/resources/contrastchecker/ */
 
 
-/*  [PRO] Knopf: dunkleres grün / [PRO] button: darker green  */   
+/*  [PRO] Knopf: dunkleres grün / [PRO] button: darker green  */
 .btn-success {
 	background: #126412;
 }
@@ -25,10 +25,10 @@
 	background:#0050A0;
 	}
 
-/* [+] [-] Knöpfe zum Aufklappen: schwarze Schrift für hellen Hintergrund   
+/* [+] [-] Knöpfe zum Aufklappen: schwarze Schrift für hellen Hintergrund
 	[+] [-] buttons to collapse tables: dark font for light background */
 .btn-outline-secondary {
-	color:#000; 
+	color:#000;
 }
 
 /* Außenabstand / padding */

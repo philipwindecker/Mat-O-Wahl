@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <title>Mat-O-Wahl</title>
+  <title>Recommendation Engine</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="keywords" content="Mat-O-Wahl, MatOWahl, Demokratie, Wahlen, elections, vote, Wahlbeteiligung, Fragebogen, Antworten, Positionen, Entscheidung, Hilfe, Politik, Vereine, e.V., Mitwirkung, B&uuml;rgermeister, Stadtrat, Kommunalwahl, Fachschaftsrat, Studentenrat, StuRa, Studentenparlament, Studierendenparlament, StuPa, AStA, Kreisrat, Landrat, Volksabstimmung, Plebiszit, Klon, clone, Alternative, GPL, Open Source, JavaScript, Freeware, kostenlos"/>
-  <meta name="robots" content="index, follow" />
-  <meta name="language" content="de" />
-  <meta name="Content-Language" content="de" />
+  <!-- <meta name="keywords" content="Mat-O-Wahl, MatOWahl, Demokratie, Wahlen, elections, vote, Wahlbeteiligung, Fragebogen, Antworten, Positionen, Entscheidung, Hilfe, Politik, Vereine, e.V., Mitwirkung, B&uuml;rgermeister, Stadtrat, Kommunalwahl, Fachschaftsrat, Studentenrat, StuRa, Studentenparlament, Studierendenparlament, StuPa, AStA, Kreisrat, Landrat, Volksabstimmung, Plebiszit, Klon, clone, Alternative, GPL, Open Source, JavaScript, Freeware, kostenlos"/> -->
+  <!-- <meta name="robots" content="index, follow" /> -->
+  <meta name="language" content="en" />
+  <meta name="Content-Language" content="en" />
 
-  <meta name="author" content="Mathias Steudtner" />
-  <meta name="description" content="Mat-O-Wahl" />
-  
+  <meta name="author" content="Philip Windecker" />
+  <meta name="description" content="Recommendation Engine" />
+
 	<!-- BOOTSTRAP + JQUERY --- START -->
 
 		<!-- ONLINE (deactivated) - Compiled and minified Bootstrap CSS -->
-		<!--	
+		<!--
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		-->
 
@@ -45,25 +45,25 @@
 	<script type="text/javascript" src="system/output.js"></script>
 
 
-	<!-- Erweiterte Einstellungen auf Basis DEFINITION.JS - dynamisch eingebunden 
-		  Advanced Settings based on DEFINITION.JS - dynamically included -->	
+	<!-- Erweiterte Einstellungen auf Basis DEFINITION.JS - dynamisch eingebunden
+		  Advanced Settings based on DEFINITION.JS - dynamically included -->
 	<script>
-	// Mat-o-Wahl CSS Styles 
+	// Mat-o-Wahl CSS Styles
 	for (i = 0; i<= design.length-1; i++) {
-		document.writeln("<link rel='stylesheet' type='text/css' href='styles/"+design[i]+"' />");	
-	}	
+		document.writeln("<link rel='stylesheet' type='text/css' href='styles/"+design[i]+"' />");
+	}
 
-	// Mat-o-Wahl Extras / Add-ons 
+	// Mat-o-Wahl Extras / Add-ons
 	for (i = 0; i<= addons.length-1; i++) {
-		document.writeln(' <script type="text/javascript" src="'+addons[i]+'"><\/script> ');	
-	}	
+		document.writeln(' <script type="text/javascript" src="'+addons[i]+'"><\/script> ');
+	}
 
 	// Mat-o-Wahl Sprache / Language / i18n
 	document.writeln("<script type='text/javascript' src='i18n/i18n_"+language+".js'><\/script>");
-	// $.getScript( "i18n/i18n_"+language+".js", function( data, textStatus, jqxhr ){ }) 
+	// $.getScript( "i18n/i18n_"+language+".js", function( data, textStatus, jqxhr ){ })
 	// -> wäre eleganter aber lädt zu langsam / unzuverlässig
 	</script>
-	
+
 </head>
 <body>
 
@@ -75,7 +75,7 @@
 	<main>
 
 		<section id="sectionDescription">
-			
+
 			<!--
 			<div class="row border border-dark rounded" style="height: 60vh; text-overflow: clip; overflow: auto; margin-top: 1.0em;">
 			-->
@@ -91,22 +91,22 @@
 					</div>
 
 					<div id="descriptionHeading2">
-						<h2>Unter&uuml;berschrift <br /> Second headline</h2> 
+						<h2>Unter&uuml;berschrift <br /> Second headline</h2>
 					</div>
-					
+
 					<div id="descriptionExplanation" class="lead">
 						<p style="color: red; font-size: 150%;">
-							DE: Wenn Sie das hier lesen können, dann haben Sie in der Schule aufgepasst und dann ist hier irgendetwas schief gelaufen. 
-							<br/> Bitte laden Sie die Seite noch einmal neu. 
+							DE: Wenn Sie das hier lesen können, dann haben Sie in der Schule aufgepasst und dann ist hier irgendetwas schief gelaufen.
+							<br/> Bitte laden Sie die Seite noch einmal neu.
 							<br /> Wenn die Meldung immer noch erscheint, muss wohl der Techniker informiert werden.
-							<br /> 
+							<br />
 							<br /> EN: If you can read this, you didn't sleep during school and something went wrong.
 							<br /> Please reload the page and try again.
-							<br /> If the message still appears, we have to call the technician. 
-						</p>						
+							<br /> If the message still appears, we have to call the technician.
+						</p>
 						<p>
 							Kurze Beschreibung der Wahl, wer wird gew&auml;hlt, wann, warum, f&uuml;r wie lange, usw. <br /> Short (explaining) text on what's the election about
-						</p>						
+						</p>
 					</div>
 
 					<div id="descriptionAddonBottom">
@@ -115,9 +115,9 @@
 
 				</div>
 			</div>
-			
-			<div class="row">							
-				<div class="col">				
+
+			<div class="row">
+				<div class="col">
 				<button type="button" class="btn btn-primary btn-lg float-right" onclick="fnHideWelcomeMessage()" id="descriptionButtonStart">Start-Button</button>
 				</div>
 			</div>
@@ -130,30 +130,30 @@
 
 			<div class="row" tabindex="0" style="margin-top: 1.0em;">
 				<div class="col">
-					
-					
+
+
 						<div class="card border-dark mb-3 bg-transparent">
 						  <div class="card-header" id="showQuestionsHeader">Header</div>
 						  <div class="card-body">
 						    <p class="card-text lead" id="showQuestionsQuestion">Frage(n) zu den verschiedenen Positionen an die Parteien bzw. Kandidaten.
 								<br /> Question(s) on the different party/candidate positions.</p>
 						  </div>
-						</div>					
-					
+						</div>
+
 						<p>
-						
+
 						</p>
 
 				</div>
 			</div>
 
 		</section>
-				
-		
+
+
 	<!-- 3. VOTING BUTTONS -->
 
 		<section id="sectionVotingButtons">
-		
+
 			<div class="row">
 				<div class="col">
 					<button type="button" id="votingDouble" onclick="fnChangeVotingDouble()" class="btn btn-outline-dark btn-lg btn-block">[x2] Important</button>
@@ -177,17 +177,17 @@
 				<div class="col">
 					<button type="button" id="votingSkip" class="btn btn-secondary btn float-right">[&#x21B7;] Skip</button>
 				</div>
-				
-			</div> 
+
+			</div>
 
 		</section>
 	</main>
 
 	<!-- 4. FORTSCHRITTSZÄHLER + NAVIGATION / PROGRESS BAR + NAVIGATION -->
 
-	<nav id="sectionNavigation">	
+	<nav id="sectionNavigation">
 
-		<div class="row fixed-top" style="width: inherit; top: 0%; left: 50%; transform: translateX(-50%); visibility: hidden; display: none;"> 
+		<div class="row fixed-top" style="width: inherit; top: 0%; left: 50%; transform: translateX(-50%); visibility: hidden; display: none;">
 			<div class="col">
 
 				<div class="progress" style="height: 2px;">
@@ -199,59 +199,59 @@
 
 		<div class="row">
 			<div class="col">
-			
+
 				<div id="navigationJumpToQuestion" style="display:none; width:100%">
 					Gehe direkt zu Frage Nummer XY.
 					Jump to Question XY directly
 				</div>
-				
+
 			</div>
 		</div>
 
 	</nav>
-		
-	<!-- CHECKBOX: STATISTIK j/n / STATISTICS y/n -->		
+
+	<!-- CHECKBOX: STATISTIK j/n / STATISTICS y/n -->
 
 	<!--
 		<div class="row" id="keepStats">
 			<div class="col">
-			
+
 				<div class="custom-control custom-switch">
 					<input type="checkbox" class="custom-control-input" id="keepStatsCheckbox" />
 					<label class="custom-control-label" for="keepStatsCheckbox" id="keepStatsQuestion">
 					Statistik erlauben? <br /> Allow statistics?
 					</label>
 				</div>
-				
+
 			</div>
 		</div>
 	-->
 
 		<!-- Bootstrap-Modal STATISTIK j/n / STATISTICS y/n -->
-		
+
 		<div class="modal fade" id="statisticsModal" tabindex="-1" role="dialog" aria-labelledby="statisticsModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
-				
+
 					<div class="modal-header">
 						<h5 class="modal-title" id="statisticsModalLabel"> Modal TITLE </h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 						</button>
 					</div>
-					
+
 					<div class="modal-body" id="statisticsModalBody">
 					  Modal BODY
 					</div>
-					
+
 					<div class="modal-footer">
 						<button type="button" id="statisticsModalButtonNo" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
 						<button type="button" id="statisticsModalButtonYes" class="btn btn-primary">Save changes</button>
 					</div>
 				</div>
 			</div>
-		</div>	
-		
+		</div>
+
 
 	<!-- 2. ERGEBNISSE / RESULTS -->
 
@@ -259,15 +259,15 @@
 
 			<div class="row" id="results">
 				<div class="col">
-		
+
 					<div id="resultsAddonTop">
 						<!-- Platzhalter / Placeholder -->
 					</div>
 
 					<div id="resultsHeading">
-						&Uuml;berschrift f&uuml;r die Ergebnisse/Resultate (ungenutzt) <br /> Headline for the results (unused) 
+						&Uuml;berschrift f&uuml;r die Ergebnisse/Resultate (ungenutzt) <br /> Headline for the results (unused)
 					</div>
-					
+
 					<div id="resultsShort">
 						Ergebnisse / Resultate der Parteien in tabellarischer Form <br /> Table with results (short) - DOM / id = "resultsShortTable"
 					</div>
@@ -275,11 +275,11 @@
 				</div>
 			</div>
 
-			<!-- 
+			<!--
 				Auswahlknoepfe für die detaillierten Ergebnisse. Text in i18n.
 				Buttons for detailled resuts. Labels in i18n.
 			-->
-			
+
 			<div class="row" id="resultsButtons">
 
 				<div class="col">
@@ -310,43 +310,43 @@
 				</div>
 			</div>
 
-		</section>	
-	
+		</section>
+
 	<!-- FUSSZEILE: IMPRESSUM, NEUSTART, SOCIAL MEDIA / FOOTER: IMPRINT, RESTART, SOCIAL MEDIA -->
 
 	<footer id="sectionFooter">
 
-		<div class="row">	
-			<div class="col">
+		<div class="row">
+			<!-- <div class="col">
 				<a class="btn btn-outline-dark btn-block btn-sm" role="button" href="system/imprint.html" target="_blank" id="imprint">Button Impressum / Legal</a>
-			</div>
+			</div> -->
 
 			<div class="col" >
 				<a class='btn btn-outline-dark btn-block btn-sm' role='button' href='index.html' id="restart">Button Neustart / Restart</a>
-			</div>			
-			
-			<div class="col">
-				<a class="btn btn-block btn-sm social-facebook" role='button' style='color:#fff' onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(location.href) + '&title='+encodeURIComponent(document.title), '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Share on Facebook">
-				facebook</a>
 			</div>
 
-			<div class="col">
+			<!-- <div class="col">
+				<a class="btn btn-block btn-sm social-facebook" role='button' style='color:#fff' onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(location.href) + '&title='+encodeURIComponent(document.title), '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Share on Facebook">
+				facebook</a>
+			</div> -->
+
+			<!-- <div class="col">
 				<a class="btn btn-block btn-sm social-twitter" role='button' onclick="window.open('https://twitter.com/share?url=' + encodeURIComponent(location.href) + '&title='+encodeURIComponent(document.title), '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Share on Twitter">
 				Twitter</a>
-			</div>
+			</div> -->
 		</div>
 
 	</footer>
-	
+
 </div>
 
 	<script type="text/javascript">
-		  
-		$(document).ready(function() { 
-			fnStart(); 		
+
+		$(document).ready(function() {
+			fnStart();
 		});
 
-	</script>	
+	</script>
 
 </body>
-</html> 
+</html>

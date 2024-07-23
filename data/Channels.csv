@@ -1,0 +1,16 @@
+Partei_kurz:;"ABC"
+Partei_lang:;"Alternate Bishop Control"
+Partei_Beschreibung:;"Some feature called ABC."
+Partei_URL:;"ABC"
+Partei_Bild:;"data/appel2.jpg"
+-1;"Data is collected onboard."
+1;"Data is collected via script."
+#
+Partei_kurz:;"COU"
+Partei_lang:;"COUnt ME in"
+Partei_Beschreibung:;"A tool that starts with COU"
+Partei_URL:;"COU"
+Partei_Bild:;"data/banane2.jpg"
+1;"Data is collected offboard."
+-1;"Changes come with update."
+#;
